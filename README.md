@@ -29,7 +29,7 @@ EduKids is a scrollable educational website made for children in Classes 1 to 5.
 1. Download or clone this repository:
 
    ```bash
-   git clone https://github.com/your-username/edukids.git
+   git clone https://github.com/subhra475/Edukids.git
    ```
 
 2. Open the `index.html` file in your browser.
