@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>EduKids - Learn with Fun</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">EduKids</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#grades">Grades</a></li>
+        <li><a href="#videos">Videos</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#newsletter">Newsletter</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1>Welcome to EduKids</h1>
+      <p>A fun learning platform for 1st to 5th graders</p>
+      <button onclick="scrollToSection('grades')">Explore Now</button>
+    </div>
+  </section>
+
+  <section id="grades" class="grades-section">
+    <h2>Curriculum by Grade</h2>
+    <div class="grade-cards">
+      <div class="grade-card scroll-reveal">
+        <h3>Grade 1</h3>
+        <ul>
+          <li>Basic English and Phonics</li>
+          <li>Counting & Addition</li>
+          <li>Shapes and Colors</li>
+          <li>Storytelling</li>
+        </ul>
+      </div>
+      <div class="grade-card scroll-reveal">
+        <h3>Grade 2</h3>
+        <ul>
+          <li>Reading Comprehension</li>
+          <li>Subtraction & Place Value</li>
+          <li>Introduction to Science</li>
+          <li>Simple Grammar</li>
+        </ul>
+      </div>
+      <div class="grade-card scroll-reveal">
+        <h3>Grade 3</h3>
+        <ul>
+          <li>Paragraph Writing</li>
+          <li>Multiplication & Division</li>
+          <li>Plants and Animals</li>
+          <li>Computer Basics</li>
+        </ul>
+      </div>
+      <div class="grade-card scroll-reveal">
+        <h3>Grade 4</h3>
+        <ul>
+          <li>Creative Writing</li>
+          <li>Fractions & Geometry</li>
+          <li>Electricity Basics</li>
+          <li>Environmental Studies</li>
+        </ul>
+      </div>
+      <div class="grade-card scroll-reveal">
+        <h3>Grade 5</h3>
+        <ul>
+          <li>Essay Writing</li>
+          <li>Decimals & Word Problems</li>
+          <li>Solar System</li>
+          <li>Science Experiments</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="videos" class="video-section scroll-reveal">
+    <h2>Watch & Learn</h2>
+    <p>Fun and interactive lessons to boost your understanding!</p>
+    <div class="video-grid">
+      <iframe src="https://www.youtube.com/embed/2Vn2WqW1jmk" frameborder="0" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/tPzRibK0qTg" frameborder="0" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/d1kq2ZAsv1I" frameborder="0" allowfullscreen></iframe>
+    </div>
+  </section>
+
+  <section id="testimonials" class="testimonials scroll-reveal">
+    <h2>What Parents Say</h2>
+    <div class="testimonial-cards">
+      <div class="testimonial">
+        <p>"My son loves the videos! He’s improving so fast!"</p>
+        <strong>- Mrs. Sharma</strong>
+      </div>
+      <div class="testimonial">
+        <p>"The science lessons are amazing and very engaging."</p>
+        <strong>- Mr. Kumar</strong>
+      </div>
+      <div class="testimonial">
+        <p>"Great platform for young kids to learn at their pace."</p>
+        <strong>- Mrs. Fernandes</strong>
+      </div>
+    </div>
+  </section>
+
+  <section id="newsletter" class="newsletter scroll-reveal">
+    <h2>Join Our Newsletter</h2>
+    <p>Get the latest updates, worksheets, and tips every week!</p>
+    <form>
+      <input type="email" placeholder="Enter your email" required />
+      <button type="submit">Subscribe</button>
+    </form>
+  </section>
+
+  <footer class="footer">
+    <p>&copy; 2025 EduKids. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
